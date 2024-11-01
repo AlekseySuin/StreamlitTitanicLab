@@ -67,7 +67,7 @@ def suinPart():
     if selected_sex == "Максимальный":
         arr = {'Максимальное': {'Q': findMax("Q"), 'S': findMax('S'), 'C': findMax('C')}}
     if selected_sex == "Минимальный":
-        arr = {'Минимальное':{'Q':findMin('Q'),'S':findMax('S'),'C':findMin('C')}}
+        arr = {'Минимальное':{'Q':findMin('Q'),'S':findMin('S'),'C':findMin('C')}}
     if selected_sex == "Средний":
         arr ={'Среднее':{'Q':findAverage('Q'),'S':findAverage('S'),'C':findAverage('C')}}
     #arr = {'max':{'Q':findMax("Q"),'S':findMax('S'),'C':findMax('C')},'min':{'Q':findMin('Q'),'S':findMax('S'),'C':findMin('C')},'average':{'Q':findAverage('Q'),'S':findAverage('S'),'C':findAverage('C')}}
